@@ -10,7 +10,7 @@ public class HomeworkApp {
     System.out.println("******************************");
     hundredArr();
     System.out.println("******************************");
-    doubleArr();
+    twoDimArr();
     System.out.println("******************************");
     squareArr(6,12);
     System.out.println("******************************");
@@ -20,12 +20,7 @@ public class HomeworkApp {
     System.out.println("******************************");
     System.out.println(isSumArr());
     System.out.println("******************************");
-
-
-
-
-
-
+    
     }
     public static int[] getArr (int size, int bound) {
         int [] newArr=new int[size];
@@ -69,7 +64,7 @@ public class HomeworkApp {
         printArr(array);
     }
 
-    public static void doubleArr () {
+    public static void twoDimArr () {
         int [] array = getArr(10,10);
         printArr(array);
         for (int i=0; i< array.length;i++) {
