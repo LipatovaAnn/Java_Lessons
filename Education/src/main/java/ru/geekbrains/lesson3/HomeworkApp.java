@@ -20,7 +20,7 @@ public class HomeworkApp {
     System.out.println("******************************");
     System.out.println(isSumArr());
     System.out.println("******************************");
-    
+
     }
     public static int[] getArr (int size, int bound) {
         int [] newArr=new int[size];
