@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class HomeWork4 {
     public static int size = 3;
     public static int turnToWin = 3;
-    public static final char empty = '_';
-    public static final char human = 'X';
-    public static final char pc = 'O';
+    public static char empty = '_';
+    public static char human = 'X';
+    public static char pc = 'O';
     public static char [][] map;
     public static Scanner scanner = new Scanner(System.in);
     public static Random random = new Random();
@@ -63,16 +63,7 @@ public class HomeWork4 {
         }
         return (diagonal[0]==size||diagonal[1]==size) ;
 
- /*       if(map[0][0]==symb && map[0][1]==symb && map[0][2]==symb) return true;
-        if(map[1][0]==symb && map[1][1]==symb && map[1][2]==symb) return true;
-        if(map[2][0]==symb && map[2][1]==symb && map[2][2]==symb) return true;
-        if(map[0][0]==symb && map[1][0]==symb && map[2][0]==symb) return true;
-        if(map[0][1]==symb && map[1][1]==symb && map[2][1]==symb) return true;
-        if(map[0][2]==symb && map[1][2]==symb && map[2][2]==symb) return true;
-        if(map[0][0]==symb && map[1][1]==symb && map[2][2]==symb) return true;
-        if(map[2][0]==symb && map[1][1]==symb && map[0][2]==symb) return true;
-            return false;*/
-    }
+     }
     public static boolean isMapFull () {
         for (int i=0; i<size; i++) {
             for (int j=0; j<size; j++) {
