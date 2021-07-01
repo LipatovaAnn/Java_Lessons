@@ -2,11 +2,14 @@ package ru.geekbrains.lesson1;
 
 public class HomeWorkApp {
     public static void main (String[] args){
+
         printThreeWords();
         checkSumSign ();
         printColour();
         compareNumbers();
     }
+
+
     public static void printThreeWords () {
         System.out.println("Orange");
         System.out.println("Banana");
